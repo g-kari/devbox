@@ -1,0 +1,57 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "chezmoi@latest": {
+      "last_modified": "2026-02-27T06:27:13Z",
+      "resolved": "github:NixOS/nixpkgs/c0f3d81a7ddbc2b1332be0d8481a672b4f6004d6#chezmoi",
+      "source": "devbox-search",
+      "version": "2.69.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vj75k2kq931qk3893c9gjgbbwfhy4kca-chezmoi-2.69.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vj75k2kq931qk3893c9gjgbbwfhy4kca-chezmoi-2.69.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m8vlzl0c3p6s37lb7zqsq4pzjp8d1qb3-chezmoi-2.69.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m8vlzl0c3p6s37lb7zqsq4pzjp8d1qb3-chezmoi-2.69.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cgipr1by6yldrzivc21dnpssf6ps5k70-chezmoi-2.69.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cgipr1by6yldrzivc21dnpssf6ps5k70-chezmoi-2.69.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/062v7ikhz1x4g9b7fxl0janr50hc4jjb-chezmoi-2.69.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/062v7ikhz1x4g9b7fxl0janr50hc4jjb-chezmoi-2.69.4"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-02-16T02:09:13Z",
+      "resolved": "github:NixOS/nixpkgs/d1c15b7d5806069da59e819999d70e1cec0760bf?lastModified=1771207753&narHash=sha256-b9uG8yN50DRQ6A7JdZBfzq718ryYrlmGgqkRm9OOwCE%3D"
+    }
+  }
+}
