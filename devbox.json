@@ -10,14 +10,16 @@
     "playwright@latest",
     "nodejs@latest",
     "bun@latest",
-    "wrangler@latest"
+    "wrangler@latest",
+    "just@latest",
+    "cloudflared@latest",
+    "tmux@latest"
   ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null",
       "gh auth login",
       "gh copilot"
-
     ],
     "scripts": {
       "test": [
