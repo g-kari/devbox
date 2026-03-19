@@ -1,6 +1,17 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.17.0/.schema/devbox.schema.json",
-  "packages": ["chezmoi@latest"],
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.0/.schema/devbox.schema.json",
+  "packages": [
+    "chezmoi@latest",
+    "fh@latest",
+    "gh@latest",
+    "ripgrep@latest",
+    "zip@latest",
+    "unzip@latest",
+    "playwright@latest",
+    "nodejs@latest",
+    "bun@latest",
+    "wrangler@latest"
+  ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
