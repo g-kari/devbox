@@ -14,7 +14,10 @@
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "echo 'Welcome to devbox!' > /dev/null",
+      "gh auth login",
+      "gh copilot"
+
     ],
     "scripts": {
       "test": [
